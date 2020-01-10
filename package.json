@@ -1,0 +1,23 @@
+{
+  "name": "nodejsschoolex1",
+  "version": "1.0.0",
+  "description": "First exercise for nodejs school in FP",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha *"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbodusz/NodeJsSChoolEx1.git"
+  },
+  "author": "WB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wbodusz/NodeJsSChoolEx1/issues"
+  },
+  "homepage": "https://github.com/wbodusz/NodeJsSChoolEx1#readme",
+  "dependencies": {
+    "mocha": "^7.0.0"
+  }
+}
