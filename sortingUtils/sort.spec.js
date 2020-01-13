@@ -3,6 +3,6 @@ const assert = require("assert");
 
 describe("Sort", function() {
   it("should sort sample array", function() {
-    assert.deepEqual([1, 6, 32, "a", "asd"], sort([6, "a", 1, "asd", 32]));
+    assert.deepStrictEqual([1, 6, 32, "a", "asd"], sort([6, "a", 1, "asd", 32]));
   });
 });
